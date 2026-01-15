@@ -1,0 +1,30 @@
+{
+  "name": "wallet-fortune",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^16.1",
+    "react": "^19",
+    "react-dom": "^19",
+    "viem": "^2",
+    "next-intl": "^4.7",
+    "framer-motion": "^12.26",
+    "lucide-react": "^0.562",
+    "zustand": "^5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7",
+    "@tailwindcss/postcss": "^4.1",
+    "tailwindcss": "^4.1",
+    "@types/react": "^19",
+    "@types/node": "^22",
+    "eslint": "^9",
+    "eslint-config-next": "^16.1"
+  }
+}

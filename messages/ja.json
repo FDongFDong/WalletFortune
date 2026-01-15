@@ -1,0 +1,92 @@
+{
+  "common": {
+    "title": "WalletFortune",
+    "subtitle": "ウォレットアドレスで見る暗号資産運勢",
+    "analyze": "運勢分析",
+    "generate": "ラッキーウォレット",
+    "home": "ホーム",
+    "loading": "分析中...",
+    "copy": "コピー",
+    "copied": "コピー完了!",
+    "download": "ダウンロード",
+    "reset": "リセット"
+  },
+  "analyze": {
+    "title": "ウォレット運勢分析",
+    "description": "ウォレットアドレスを入力して、あなたの暗号資産運勢を分析します",
+    "placeholder": "0xで始まるウォレットアドレスを入力",
+    "button": "運勢を見る",
+    "invalidAddress": "有効なイーサリアムアドレスを入力してください",
+    "supportedChains": "対応チェーン: Ethereum, BSC"
+  },
+  "result": {
+    "personality": "基本性格",
+    "element": "五行分析",
+    "yinyang": "陰陽バランス",
+    "luckyIndex": "ラッキー指数",
+    "patterns": "特殊パターン",
+    "recommendedCoins": "おすすめコイン",
+    "cautionCoins": "注意コイン",
+    "mainElement": "主なエネルギー",
+    "weakElement": "補完が必要"
+  },
+  "personality": {
+    "holder": "安定型ホルダー",
+    "holderDesc": "長期投資を好み、安定したリターンを追求します",
+    "balanced": "バランス投資家",
+    "balancedDesc": "リスクとリターンのバランスを上手く取ります",
+    "aggressive": "アグレッシブトレーダー",
+    "aggressiveDesc": "高いリターンのために大胆な投資を好みます",
+    "analyst": "慎重なアナリスト",
+    "analystDesc": "徹底的な分析の後、慎重に投資します",
+    "degen": "直感的デジェン",
+    "degenDesc": "直感とトレンドに従う大胆な投資家です"
+  },
+  "elements": {
+    "water": "水",
+    "waterDesc": "柔軟さと知恵のエネルギー",
+    "wood": "木",
+    "woodDesc": "成長と拡大のエネルギー",
+    "fire": "火",
+    "fireDesc": "情熱と推進力のエネルギー",
+    "earth": "土",
+    "earthDesc": "安定と信頼のエネルギー",
+    "metal": "金",
+    "metalDesc": "財運と決断力のエネルギー"
+  },
+  "yinyang": {
+    "yang": "陽",
+    "yangDesc": "活動的で外向的なエネルギーが強いです",
+    "yin": "陰",
+    "yinDesc": "慎重で内向的なエネルギーが強いです",
+    "balanced": "調和",
+    "balancedDesc": "陰陽のバランスが取れた調和のエネルギーです"
+  },
+  "patterns": {
+    "lucky777": "777ラッキーパターン",
+    "lucky888": "888財運パターン",
+    "quadruple": "強いエネルギー集中",
+    "rare": "稀少な運命",
+    "symmetric": "バランスの取れた運",
+    "none": "特殊パターンなし"
+  },
+  "generate": {
+    "title": "ラッキーウォレット生成",
+    "description": "あなただけのラッキーウォレットを生成しましょう",
+    "button": "ラッキーウォレットを引く",
+    "generating": "ウォレット生成中...",
+    "result": "生成されたウォレット",
+    "address": "アドレス",
+    "privateKey": "秘密鍵",
+    "warning": "秘密鍵を安全に保管してください。紛失した場合、復元できません。",
+    "downloadJson": "JSONダウンロード",
+    "newWallet": "新しいウォレットを引く"
+  },
+  "coins": {
+    "defi": "DeFi",
+    "layer2": "Layer2",
+    "meme": "ミームコイン",
+    "stable": "大型/安定",
+    "payment": "決済/RWA"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "common": {
+    "title": "WalletFortune",
+    "subtitle": "Discover your crypto fortune through your wallet",
+    "analyze": "Fortune Analysis",
+    "generate": "Lucky Wallet",
+    "home": "Home",
+    "loading": "Analyzing...",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "download": "Download",
+    "reset": "Reset"
+  },
+  "analyze": {
+    "title": "Wallet Fortune Analysis",
+    "description": "Enter your wallet address to discover your crypto fortune",
+    "placeholder": "Enter wallet address starting with 0x",
+    "button": "Reveal Fortune",
+    "invalidAddress": "Please enter a valid Ethereum address",
+    "supportedChains": "Supported chains: Ethereum, BSC"
+  },
+  "result": {
+    "personality": "Personality",
+    "element": "Five Elements",
+    "yinyang": "Yin-Yang Balance",
+    "luckyIndex": "Lucky Index",
+    "patterns": "Special Patterns",
+    "recommendedCoins": "Recommended Coins",
+    "cautionCoins": "Caution Coins",
+    "mainElement": "Main Element",
+    "weakElement": "Needs Balance"
+  },
+  "personality": {
+    "holder": "Steady Holder",
+    "holderDesc": "Prefers long-term investments with stable returns",
+    "balanced": "Balanced Investor",
+    "balancedDesc": "Balances risk and reward effectively",
+    "aggressive": "Aggressive Trader",
+    "aggressiveDesc": "Favors bold investments for high returns",
+    "analyst": "Careful Analyst",
+    "analystDesc": "Invests cautiously after thorough analysis",
+    "degen": "Intuitive Degen",
+    "degenDesc": "Bold investor following intuition and trends"
+  },
+  "elements": {
+    "water": "Water",
+    "waterDesc": "Energy of flexibility and wisdom",
+    "wood": "Wood",
+    "woodDesc": "Energy of growth and expansion",
+    "fire": "Fire",
+    "fireDesc": "Energy of passion and drive",
+    "earth": "Earth",
+    "earthDesc": "Energy of stability and trust",
+    "metal": "Metal",
+    "metalDesc": "Energy of wealth and decisiveness"
+  },
+  "yinyang": {
+    "yang": "Yang",
+    "yangDesc": "Strong active and outgoing energy",
+    "yin": "Yin",
+    "yinDesc": "Strong careful and introverted energy",
+    "balanced": "Harmony",
+    "balancedDesc": "Balanced yin and yang energy"
+  },
+  "patterns": {
+    "lucky777": "777 Lucky Pattern",
+    "lucky888": "888 Wealth Pattern",
+    "quadruple": "Strong Energy Focus",
+    "rare": "Rare Destiny",
+    "symmetric": "Balanced Fortune",
+    "none": "No Special Pattern"
+  },
+  "generate": {
+    "title": "Lucky Wallet Generator",
+    "description": "Generate your own lucky wallet",
+    "button": "Generate Lucky Wallet",
+    "generating": "Generating wallet...",
+    "result": "Generated Wallet",
+    "address": "Address",
+    "privateKey": "Private Key",
+    "warning": "Keep your private key safe. It cannot be recovered if lost.",
+    "downloadJson": "Download JSON",
+    "newWallet": "Generate New Wallet"
+  },
+  "coins": {
+    "defi": "DeFi",
+    "layer2": "Layer2",
+    "meme": "Meme",
+    "stable": "Major/Stable",
+    "payment": "Payment/RWA"
+  }
+}

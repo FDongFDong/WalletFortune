@@ -1,0 +1,92 @@
+{
+  "common": {
+    "title": "WalletFortune",
+    "subtitle": "지갑 주소로 보는 나의 크립토 운세",
+    "analyze": "사주 분석",
+    "generate": "행운 지갑 생성",
+    "home": "홈",
+    "loading": "분석 중...",
+    "copy": "복사",
+    "copied": "복사됨!",
+    "download": "다운로드",
+    "reset": "다시하기"
+  },
+  "analyze": {
+    "title": "지갑 사주 분석",
+    "description": "지갑 주소를 입력하면 당신의 크립토 운세를 분석해 드립니다",
+    "placeholder": "0x로 시작하는 지갑 주소 입력",
+    "button": "운세 보기",
+    "invalidAddress": "올바른 이더리움 주소를 입력해주세요",
+    "supportedChains": "지원 체인: Ethereum, BSC"
+  },
+  "result": {
+    "personality": "기본 성향",
+    "element": "오행 분석",
+    "yinyang": "음양 밸런스",
+    "luckyIndex": "행운 지수",
+    "patterns": "특수 패턴",
+    "recommendedCoins": "추천 코인",
+    "cautionCoins": "주의 코인",
+    "mainElement": "주 기운",
+    "weakElement": "보완 필요"
+  },
+  "personality": {
+    "holder": "안정형 홀더",
+    "holderDesc": "장기 투자를 선호하며 안정적인 수익을 추구합니다",
+    "balanced": "밸런스 투자자",
+    "balancedDesc": "위험과 수익의 균형을 잘 맞추는 투자 성향입니다",
+    "aggressive": "공격적 트레이더",
+    "aggressiveDesc": "높은 수익을 위해 과감한 투자를 선호합니다",
+    "analyst": "신중한 분석가",
+    "analystDesc": "철저한 분석 후 신중하게 투자합니다",
+    "degen": "직감적 디젠",
+    "degenDesc": "직감과 트렌드를 따르는 대담한 투자자입니다"
+  },
+  "elements": {
+    "water": "수(水)",
+    "waterDesc": "유연함과 지혜의 기운",
+    "wood": "목(木)",
+    "woodDesc": "성장과 확장의 기운",
+    "fire": "화(火)",
+    "fireDesc": "열정과 추진력의 기운",
+    "earth": "토(土)",
+    "earthDesc": "안정과 신뢰의 기운",
+    "metal": "금(金)",
+    "metalDesc": "재물과 결단력의 기운"
+  },
+  "yinyang": {
+    "yang": "양(陽)",
+    "yangDesc": "활동적이고 외향적인 기운이 강합니다",
+    "yin": "음(陰)",
+    "yinDesc": "신중하고 내향적인 기운이 강합니다",
+    "balanced": "조화",
+    "balancedDesc": "음양이 균형을 이루어 조화로운 기운입니다"
+  },
+  "patterns": {
+    "lucky777": "777 행운 패턴",
+    "lucky888": "888 재물 패턴",
+    "quadruple": "강한 기운 집중",
+    "rare": "희귀 운명",
+    "symmetric": "균형잡힌 운",
+    "none": "특수 패턴 없음"
+  },
+  "generate": {
+    "title": "행운 지갑 생성",
+    "description": "당신만의 행운 지갑을 생성하세요",
+    "button": "행운 지갑 뽑기",
+    "generating": "지갑 생성 중...",
+    "result": "생성된 지갑",
+    "address": "주소",
+    "privateKey": "프라이빗 키",
+    "warning": "프라이빗 키를 안전하게 보관하세요. 분실 시 복구가 불가능합니다.",
+    "downloadJson": "JSON 다운로드",
+    "newWallet": "새 지갑 뽑기"
+  },
+  "coins": {
+    "defi": "DeFi",
+    "layer2": "Layer2",
+    "meme": "밈코인",
+    "stable": "대형/안정",
+    "payment": "결제/RWA"
+  }
+}

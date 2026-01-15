@@ -35,22 +35,24 @@ export default function WalletInput({ onAnalyze, isLoading }: WalletInputProps) 
           value={address}
           onChange={(e) => setAddress(e.target.value)}
           placeholder={t('placeholder')}
-          className="w-full px-6 py-4 pr-14 bg-[var(--secondary)] border border-purple-500/30 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-purple-500 transition-colors font-mono text-sm"
+          className="w-full px-4 sm:px-6 py-3.5 sm:py-4 pr-12 sm:pr-14 bg-[var(--secondary)] border border-purple-500/30 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all font-mono text-xs sm:text-sm"
           disabled={isLoading}
+          autoComplete="off"
+          spellCheck={false}
         />
         <button
           type="submit"
           disabled={isLoading || !address}
-          className="absolute right-2 top-1/2 -translate-y-1/2 p-2 bg-purple-600 hover:bg-purple-700 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          className="absolute right-2 top-1/2 -translate-y-1/2 p-2 sm:p-2.5 bg-purple-600 hover:bg-purple-700 active:bg-purple-800 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {isLoading ? (
-            <Loader2 className="w-5 h-5 animate-spin" />
+            <Loader2 className="w-4 h-4 sm:w-5 sm:h-5 animate-spin" />
           ) : (
-            <Search className="w-5 h-5" />
+            <Search className="w-4 h-4 sm:w-5 sm:h-5" />
           )}
         </button>
       </div>
-      {error && <p className="mt-2 text-red-400 text-sm text-center">{error}</p>}
+      {error && <p className="mt-2 text-red-400 text-xs sm:text-sm text-center">{error}</p>}
       <p className="mt-2 text-gray-500 text-xs text-center">{t('supportedChains')}</p>
     </form>
   );

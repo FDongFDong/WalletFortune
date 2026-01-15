@@ -29,12 +29,12 @@ export default function HomePage() {
   };
 
   return (
-    <div className="min-h-[80vh] flex flex-col items-center justify-center">
+    <div className="min-h-[calc(100vh-120px)] sm:min-h-[80vh] flex flex-col items-center justify-center py-6 sm:py-8">
       {!result ? (
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-center space-y-8"
+          className="text-center space-y-6 sm:space-y-8 px-4 sm:px-0 w-full"
         >
           <div className="flex justify-center">
             <motion.div
@@ -48,18 +48,22 @@ export default function HomePage() {
                 repeatType: 'reverse',
               }}
             >
-              <Sparkles className="w-20 h-20 text-purple-500" />
+              <Sparkles className="w-16 h-16 sm:w-20 sm:h-20 text-purple-500" />
             </motion.div>
           </div>
 
           <div>
-            <h1 className="text-4xl md:text-5xl font-bold gradient-text mb-4">{t('title')}</h1>
-            <p className="text-gray-400 text-lg">{t('subtitle')}</p>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold gradient-text mb-3 sm:mb-4">
+              {t('title')}
+            </h1>
+            <p className="text-gray-400 text-base sm:text-lg px-4 sm:px-0">{t('subtitle')}</p>
           </div>
 
-          <div className="pt-4">
-            <h2 className="text-2xl font-semibold mb-2">{tAnalyze('title')}</h2>
-            <p className="text-gray-400 mb-6">{tAnalyze('description')}</p>
+          <div className="pt-2 sm:pt-4 w-full">
+            <h2 className="text-xl sm:text-2xl font-semibold mb-2">{tAnalyze('title')}</h2>
+            <p className="text-gray-400 text-sm sm:text-base mb-4 sm:mb-6 px-4 sm:px-0">
+              {tAnalyze('description')}
+            </p>
             <WalletInput onAnalyze={handleAnalyze} isLoading={isLoading} />
           </div>
         </motion.div>

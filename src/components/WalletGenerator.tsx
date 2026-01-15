@@ -136,40 +136,40 @@ export default function WalletGenerator() {
               </div>
             </div>
 
-            <div className="card p-6">
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-                <div>
-                  <p className="text-gray-400 text-sm">Lucky Index</p>
-                  <p className="text-2xl font-bold gradient-text">{fortune.luckyIndex}</p>
+            <div className="card p-4 sm:p-6">
+              <div className="grid grid-cols-2 gap-3 sm:gap-4 text-center">
+                <div className="p-2 sm:p-3 bg-black/20 rounded-lg">
+                  <p className="text-gray-400 text-xs sm:text-sm">Lucky Index</p>
+                  <p className="text-xl sm:text-2xl font-bold gradient-text">{fortune.luckyIndex}</p>
                 </div>
-                <div>
-                  <p className="text-gray-400 text-sm">Element</p>
-                  <p className="text-xl font-bold capitalize">{fortune.elements.mainElement}</p>
+                <div className="p-2 sm:p-3 bg-black/20 rounded-lg">
+                  <p className="text-gray-400 text-xs sm:text-sm">Element</p>
+                  <p className="text-lg sm:text-xl font-bold capitalize">{fortune.elements.mainElement}</p>
                 </div>
-                <div>
-                  <p className="text-gray-400 text-sm">Yin-Yang</p>
-                  <p className="text-xl font-bold capitalize">{fortune.yinyang.type}</p>
+                <div className="p-2 sm:p-3 bg-black/20 rounded-lg">
+                  <p className="text-gray-400 text-xs sm:text-sm">Yin-Yang</p>
+                  <p className="text-lg sm:text-xl font-bold capitalize">{fortune.yinyang.type}</p>
                 </div>
-                <div>
-                  <p className="text-gray-400 text-sm">Personality</p>
-                  <p className="text-xl font-bold capitalize">{fortune.personality}</p>
+                <div className="p-2 sm:p-3 bg-black/20 rounded-lg">
+                  <p className="text-gray-400 text-xs sm:text-sm">Personality</p>
+                  <p className="text-lg sm:text-xl font-bold capitalize">{fortune.personality}</p>
                 </div>
               </div>
             </div>
 
-            <div className="flex gap-4">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <button
                 onClick={handleDownload}
-                className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-green-600 hover:bg-green-700 rounded-lg transition-colors"
+                className="flex-1 flex items-center justify-center gap-2 px-4 sm:px-6 py-3 bg-green-600 hover:bg-green-700 active:bg-green-800 rounded-lg transition-colors text-sm sm:text-base"
               >
-                <Download className="w-5 h-5" />
+                <Download className="w-4 h-4 sm:w-5 sm:h-5" />
                 {t('downloadJson')}
               </button>
               <button
                 onClick={handleGenerate}
-                className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg transition-colors"
+                className="flex-1 flex items-center justify-center gap-2 px-4 sm:px-6 py-3 bg-purple-600 hover:bg-purple-700 active:bg-purple-800 rounded-lg transition-colors text-sm sm:text-base"
               >
-                <RefreshCw className="w-5 h-5" />
+                <RefreshCw className="w-4 h-4 sm:w-5 sm:h-5" />
                 {t('newWallet')}
               </button>
             </div>

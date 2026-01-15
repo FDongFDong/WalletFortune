@@ -6,25 +6,31 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
+    "framer-motion": "^12.26",
+    "lucide-react": "^0.562",
     "next": "^16.1",
+    "next-intl": "^4.7",
     "react": "^19",
     "react-dom": "^19",
     "viem": "^2",
-    "next-intl": "^4.7",
-    "framer-motion": "^12.26",
-    "lucide-react": "^0.562",
     "zustand": "^5.0"
   },
   "devDependencies": {
-    "typescript": "^5.7",
     "@tailwindcss/postcss": "^4.1",
-    "tailwindcss": "^4.1",
-    "@types/react": "^19",
     "@types/node": "^22",
+    "@types/react": "^19",
+    "@vitest/coverage-v8": "^3.2",
     "eslint": "^9",
-    "eslint-config-next": "^16.1"
+    "eslint-config-next": "^16.1",
+    "jsdom": "^27.4.0",
+    "tailwindcss": "^4.1",
+    "typescript": "^5.7",
+    "vitest": "^3.2"
   }
 }
